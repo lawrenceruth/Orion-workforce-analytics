@@ -1,0 +1,27 @@
+
+# Local datasets - do not upload source data
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Editor and IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.log
+
+# MySQL local files
+*.sql.bak

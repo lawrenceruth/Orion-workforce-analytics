@@ -72,6 +72,48 @@ The project addresses ten questions:
 - Switzerland records the highest total salary cost, at 75,100.
 - All 19 listed job roles have at least one employee assigned.
 
+
+## SQL Analysis — Visual Results
+
+The following screenshots provide evidence of the SQL queries executed in MySQL Workbench during the analysis. They demonstrate the database structure and selected workforce and salary insights derived from the dataset.
+
+### 1. Database Structure
+
+The `capstone` database contains four relational tables: employees, departments, jobs, and countries.
+
+![Database Tables](assets/screenshots/01_database_tables.png)
+
+### 2. Workforce Distribution by Department
+
+Used `GROUP BY` and `COUNT()` to examine how employees are distributed across departments. Department 50 recorded the largest workforce, with 45 employees.
+
+![Workforce Distribution](assets/screenshots/02_workforce_distribution.png)
+
+### 3. Average Salary Comparison
+
+Applied `AVG()` and grouping to compare average salaries across departments. Department 90 recorded the highest average salary of 19,333.33, while Department 50 recorded the lowest at 3,475.56.
+
+![Salary Comparison](assets/screenshots/03_salary_comparison.png)
+
+### 4. Employee Salary Band Classification
+
+Used a `CASE` statement to classify employees into Low, Medium, and High salary bands.
+
+| Salary Band | Employee Count |
+|---|---:|
+| Low | 49 |
+| Medium | 43 |
+| High | 15 |
+
+![Salary Bands](assets/screenshots/04_salary_bands.png)
+
+### 5. Salary Cost by Country
+
+Used `SUM()` and `GROUP BY` to examine total employee salary costs across countries. Switzerland recorded the highest total at 75,100, while the United Kingdom recorded the lowest at 2,200.
+
+![Salary Cost by Country](assets/screenshots/05_salary_cost_by_country.png)
+
+
 ## SQL Concepts Demonstrated
 
 - Database creation and table design

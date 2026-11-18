@@ -1,6 +1,10 @@
 
 # Orion Workforce Analytics
-### SQL-Based Workforce and Compensation Analysis
+
+### What does Orion's workforce look like, and where does its salary spend actually sit?
+### A SQL-Based Workforce and Compensation Analysis
+
+![Orion Data Systems](assets/screenshots/OrionWorkforceGlobalHeadquarters.png)
 
 ## Project Overview
 
